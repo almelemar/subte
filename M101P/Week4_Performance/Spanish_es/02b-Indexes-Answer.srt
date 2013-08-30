@@ -1,0 +1,110 @@
+1
+00:00:00,000 --> 00:00:00,130
+
+2
+00:00:00,130 --> 00:00:03,200
+Y la respuesta es agregar
+el índice principal apropiado
+
+3
+00:00:03,200 --> 00:00:04,900
+en las colecciones de modo que
+el porcentaje de consultas sea más pequeño
+
+4
+00:00:04,900 --> 00:00:07,090
+que en la coleccion,
+que va a tener un
+
+5
+00:00:07,090 --> 00:00:08,320
+impacto mayor.
+
+6
+00:00:08,320 --> 00:00:10,800
+Ninguna más memoria por lo que el
+conjunto de trabajo se ajusta a la
+
+7
+00:00:10,800 --> 00:00:13,590
+memoria, que va a ayudar.
+
+8
+00:00:13,590 --> 00:00:16,059
+Pero, por lo general no será
+capaz de obtener su toda la
+
+9
+00:00:16,059 --> 00:00:17,780
+base de datos en la memoria, aunque
+usted será capaz de obtener su
+
+10
+00:00:17,780 --> 00:00:20,730
+índice entero en la memoria.
+
+11
+00:00:20,730 --> 00:00:21,865
+Y eso va a ser importante
+para obtener un rendimiento
+
+12
+00:00:21,865 --> 00:00:23,730
+como veremos más adelante.
+
+13
+00:00:23,730 --> 00:00:26,960
+Agregar de una unidad de disco 
+más rápido, que ayuda.
+
+14
+00:00:26,960 --> 00:00:29,200
+Pero la verdad es realizar
+mejoras algorítmicas que
+
+15
+00:00:29,200 --> 00:00:33,270
+obtener de consultar un índice son una
+orden de magnitud mayor
+
+16
+00:00:33,270 --> 00:00:35,800
+than what you're gonna get by
+having a faster disk drive
+
+17
+00:00:35,800 --> 00:00:36,920
+inside your computer.
+
+18
+00:00:36,920 --> 00:00:39,520
+The same thing is
+true for a CPU.
+
+19
+00:00:39,520 --> 00:00:43,370
+Creating a faster CPU is
+OK, but the algorithmic
+
+20
+00:00:43,370 --> 00:00:45,850
+improvements you get by hitting
+an index inside the
+
+21
+00:00:45,850 --> 00:00:48,360
+database is far more
+important.
+
+22
+00:00:48,360 --> 00:00:50,690
+And so thinking about indexing
+when you're thinking about
+
+23
+00:00:50,690 --> 00:00:53,410
+performance in a database is
+gonna be absolutely critical.
+
+24
+00:00:53,410 --> 00:00:54,660
